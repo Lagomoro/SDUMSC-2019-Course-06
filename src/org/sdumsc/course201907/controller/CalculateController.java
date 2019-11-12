@@ -15,6 +15,7 @@ import org.sdumsc.course201907.ui.components.Label;
 public class CalculateController {
 	
 	private static EditText editText;
+	@SuppressWarnings("unused")
 	private static Label label;
 	
     public static void setEditText(EditText text) {
