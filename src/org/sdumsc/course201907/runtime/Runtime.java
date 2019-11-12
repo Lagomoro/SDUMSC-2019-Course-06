@@ -14,11 +14,11 @@ public class Runtime {
 	
 	public static void main(String[] args) {
 		//新建窗口
-		Window maiWindow = new Window(256, 398 + 15, "普通的计算器");
+		Window mainWindow = new Window(256, 398 + 15, "普通的计算器");
 		//启动周期更新协程
-		UpdateController.startUpdate(maiWindow);	
+		UpdateController.startUpdate(mainWindow);	
 		//显示窗口
-		maiWindow.active();
+		mainWindow.active();
 	}
 	
 }
